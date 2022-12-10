@@ -24,6 +24,7 @@ data = {
 # vars.execute()
 # print("*"*50, __name__)
 app = Dash(__name__)
+server = app.server
 
 # GEojson file
 # this file
